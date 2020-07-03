@@ -1,0 +1,73 @@
+
+body {
+    background-color:azure;
+    height: 100%;
+     font-family:sans-serif;
+}
+input {
+    
+}
+
+.ingresar {
+    border: 2px solid aqua;
+   
+    width: 80%;
+    height: 2rem;
+    font-size: 1.4em;
+    color:darkblue;
+    font-family:sans-serif;
+        
+}
+
+.ingresar:focus {
+    background-color: honeydew;
+    border: none;
+    border-left:  6px solid indigo;
+}
+
+#main {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: tomato;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.elemento{
+    height: 1.4em;
+    margin: auto;
+    width: 80%;
+    padding: 0.5em;
+    color: indigo;
+    font-weight: bold;
+    list-style:none;
+    border-bottom: 2px solid orange;
+    transition: 1s ease;
+}
+
+
+
+
+.realizado{
+    background-color: darkgrey;
+    color: grey;
+    text-decoration: line-through;
+    font-style: italic;
+    list-style: square;
+    width: 80%;
+    margin:auto;
+    padding: 0.5em;
+    list-style: square;
+    transition: 1s ease;
+}
+button{
+    float: right;
+    color: blue;
+}
+
